@@ -29,6 +29,8 @@ Imported a CSV file mapping U.S. states to their respective regions.
 Verified dataset headers and row structures using the Input Data Tool in Alteryx.
 
 - **Result**: Successfully loaded all datasets, totaling 525 records from the order files and a reference table for regions.
+![East and west orders](images/east_west_orders.jpg)
+  
 
 2. Merging Datasets and Removing Duplicates
 
