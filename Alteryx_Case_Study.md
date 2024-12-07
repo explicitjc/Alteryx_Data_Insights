@@ -1,3 +1,5 @@
+![branch logo](images/logo.png)
+
 - **Case Study**: 
 
 Data Analysis for
@@ -29,8 +31,8 @@ Imported a CSV file mapping U.S. states to their respective regions.
 Verified dataset headers and row structures using the Input Data Tool in Alteryx.
 
 - **Result**: Successfully loaded all datasets, totaling 525 records from the order files and a reference table for regions.
+
 ![East and west orders](images/east_west_orders.jpg)
-  
 
 2. Merging Datasets and Removing Duplicates
 
@@ -46,6 +48,10 @@ Identified and removed 25 duplicate records.
 
 - **Result**: A unified dataset with 500 unique orders, ensuring reliable downstream analysis.
 
+![Dataset](images/2_dataset.png)
+
+![Duplicates](images/2_duplicates.png)
+
 3. Adding Regional Information
 
 - **Objective**: Enrich the dataset by associating orders with their respective regions.
@@ -60,6 +66,10 @@ Duplicated fields from the join were deselected for clarity.
 
 - **Result**: The dataset now includes regional information, with concise codes for grouping and analysis.
 
+![3_1_dataset_regional](images/3_1_dataset_regional.png)
+
+![3_2_dataset_concise](images/3_2_dataset_concise.png)
+
 4. Cleaning and Transforming Data
 
 - **Objective**: Ensure that fields are formatted correctly and ready for analysis.
@@ -71,6 +81,8 @@ Reformatted the Order Date field using a parsing tool to convert it into a prope
 Extracted the Day of the Week (DoW) from the Order Date field, creating a new temporal dimension for analysis.
 
 - **Result**: The dataset now includes properly formatted date fields and an additional Day of the Week column for temporal analysis.
+
+![4_1_order_dates](images/4_1_order_dates.png)
 
 Analysis and Insights
 
@@ -96,6 +108,8 @@ No one day shows particularly high or low activity.
 
 No one region seems to be significantly over/under performing the others.
 
+![5_1_mprofit_dow](images/5_1_mprofit_dow.png)
+
 2. Profitability by Category and Region
 
 - **Objective**: Analyze profitability patterns by product category and region.
@@ -115,6 +129,10 @@ West region leads in overall profitability.
 South-East region excels in the Clothing category.
 
 North-East region consistently underperforms in all categories.
+
+![5_2_profit_category_region](images/5_2_profit_category_region.png)
+
+![5_3_Profit_totals](images/5_3_Profit_totals.png)
 
 - **Insights**: 
 
@@ -140,6 +158,8 @@ The top 25 orders contributed over $1,200,000 in total profit.
 
 The single most profitable order generated $93,292.01.
 
+![6_rank_25](images/6_rank_25.png)
+
 4. Most Profitable Subcategories
 
 - **Objective**: Determine the top subcategories contributing to profit within each category.
@@ -157,6 +177,8 @@ Ranked subcategories by profitability within each category and selected the top 
 Printers emerged as the top subcategory, followed by Monitors and Office Supplies.
 
 Insights reveal opportunities to prioritize inventory and marketing for these high-performing subcategories.
+
+![7_SubCategory](images/7_SubCategory.png)
 
 Final Workflow Overview
 
@@ -193,3 +215,5 @@ Investigate customer behaviors in the South-East and Friday sales to understand 
 Implement strategies to improve performance in the North-East and low-profit subcategories.
 
 Alteryx Workflow
+
+![workflow](images/workflow.png)
