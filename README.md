@@ -25,5 +25,8 @@ An advanced case study realised on Datacamp exercises to analyze sales performan
 
 ---
 
-## License
-This project is open-source and available under the MIT License. The original data used in this analysis cannot be shared due to licensing restrictions from DataCamp.
+## Disclaimer
+
+This project uses data sourced from [DataCamp](https://www.datacamp.com/) for educational purposes. All intellectual property rights related to the dataset and any associated content belong to DataCamp. This analysis is strictly for non-commercial use and is intended for personal and educational purposes only.
+
+The dataset and analysis are based on the educational materials provided by DataCamp. All rights related to the content, methodology, and materials belong to DataCamp. This project is shared for educational purposes and personal portfolio development only.
